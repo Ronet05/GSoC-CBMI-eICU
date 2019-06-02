@@ -10,5 +10,8 @@
 <b>The Labs ready, Final Table build and cardiovascular parameters</b> are processed tables, based off the eICU original database. All these tables are being created to finally merge into a single table to train a model on top.</p>
 <p>The <b>GCS Scores table and Labs Before FiO2</b> table works on the huge nurseCharting table, trims it down to take only the GCS scores</p>
 
+<p>The <b>Joining all tables</b> file contains the merger code, for making the final training table.</p>
+
 <p>Most of the larger datasets have been processed using a chunksize of 10000. This restricts memory usage and avoid memory overflow</p>
+
 
